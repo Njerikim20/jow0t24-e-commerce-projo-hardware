@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jowot hardware store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!---header--->
+    <header>
+        <a href="#" class="logo">Jowott Hardware</a>
+        
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <a href="#" id="cart-icon">
+                <i class='bx bx-cart'></i>
+                <span id="cart-count" class="cart-count">0</span>
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+     <!---home--->
+     <section class="home" id="home">
+        <div class="home-text">
+            <p class="tagline"> Your One-Stop Shop For Quality Hardware Supplies</p>
+
+            <h1>Quality Hardware <br><span>Supplies</span></h1>
+            <p>Explore a wide range of mirrors, lights, toilet basins, pipes, tiles, and more for your home and projects.</p>
+            <a href="#" class="btn">Browse Products</a>
+            
+        </div>
+    </section>
+
+    <!--products-->
+    <section class="products" id="products">
+            <div class="center-text">
+                <h2> Products Categories</h2>
+            </div>
+            <div class="featured-content">
+                <div class="row">
+                    <img src="light5.png" class="fixed-size">
+                    <div class="fea-text" >   
+                        <h5>Pendant light</h5>
+                        <p class="price"> $25.99</p>
+                        <p>10 items</p>
+                        <button class="add-to-cart" data-name="Pendant Light" data-price="25.99">Add to Cart</button>
+                    </div>
+                    <div class="arrow">
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="light3.png" class="fixed-size">
+                    <div class="fea-text">
+                        <h5>Wall light</h5>
+                        <p class="price"> $25.99</p>
+                        <p>10 items</p>
+                        <button class="add-to-cart" data-name="Wall Light" data-price="25.99" >Add to Cart</button>
+                    </div>
+                    <div class="arrow">
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+
+    <!--cart section-->
+    <div id="cart">
+        <h3>Shopping Cart</h3>
+        <ul id="cart-items"></ul>
+        <p id="total-price"> Total: $0.00</p>
+    </div>
+
+    <!---contact (icons from boxicans)--->
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <h3>Jowott </h3>
+            <h5>Let's Connect With Us</h5>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                
+            </div>
+        </div>
+
+        <div class="main-contact">
+            <h3>Explore</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Our Services</h3>
+            <li><a href="#">Price Tiers</a></li>
+            <li><a href="#">Delivery Services</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Shopping</h3>
+            <li><a href="#">Product Collection</a></li>
+            <li><a href="#">Best Sellers</a></li> <!--trending cakes-->
+            <li><a href="#">Accessories</a></li> <!--toppers and decorations-->
+            <li><a href="#">Sales</a></li> <!--special offers-->
+        
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Copyright © 2024. All rights reserved |</p>
+        </p>
+    </div>
+
+    <!---scroll top--->
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!---custom js link--->
+    <script src="index.js"></script>
+    
+</body>
+
+</html>    
